@@ -1,0 +1,405 @@
+{
+    "PHI": {
+        "1990": {
+            "adamso001joe": {
+                "player_from": "Cerritos College (Norwalk, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Joel Adamson", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "anders001cha": {
+                "player_from": "Roseburg HS (Roseburg, OR)", 
+                "player_from_type": "HS", 
+                "player_name": "Chad Anderson", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "benard001mar": {
+                "player_from": "Los Angeles Harbor College (Wilmington, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Marvin Benard", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "bennet001gar": {
+                "player_from": "Waukegan East HS (Waukegan, IL)", 
+                "player_from_type": "HS", 
+                "player_name": "Gary Bennett", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "borges002jef": {
+                "player_from": "California State University Fresno (Fresno, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jeff Borgese", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "cheek-001pat": {
+                "player_from": "Alliant International University (San Diego, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Pat Cheek", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "colema001sco": {
+                "player_from": "Orange Glen HS (Escondido, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Scott Coleman", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "comeau000dem": {
+                "player_from": "Gahr HS (Cerritos, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Demetrius Comeaux", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "cruz--002jul": {
+                "player_from": "American River College (Sacramento, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "J.J. Cruz", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "edward001sam": {
+                "player_from": "Gateway HS (Kissimmee, FL)", 
+                "player_from_type": "HS", 
+                "player_name": "Sam Edwards", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "edward007joh": {
+                "player_from": "Jackson State University (Jackson, MS)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jay Edwards", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "eggles001sco": {
+                "player_from": "Maple Woods Community College (Kansas City, MO)", 
+                "player_from_type": "JC", 
+                "player_name": "Scott Eggleston", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "evans-000man": {
+                "player_from": "Pasadena HS (Pasadena, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Manuel Evans", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "garrig001pat": {
+                "player_from": "Miami University of Ohio (Oxford, OH)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Pat Garrigan", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "graham001mar": {
+                "player_from": "Santa Monica College (Santa Monica, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Mark Graham", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "grisso001ant": {
+                "player_from": "South Georgia College (Douglas, GA)", 
+                "player_from_type": "JC", 
+                "player_name": "Antonio Grissom", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "gunn--001jef": {
+                "player_from": "Grambling State University (Grambling, LA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jeffrey Gunn", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "hedley001dar": {
+                "player_from": "American River College (Sacramento, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Darren Hedley", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "higgin001k--": {
+                "player_from": "Clinch Valley County HS (Castlewood, VA)", 
+                "player_from_type": "HS", 
+                "player_name": "Bill Higgins", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "hill--001eri": {
+                "player_from": "Walters State Community College (Morristown, TN)", 
+                "player_from_type": "JC", 
+                "player_name": "Eric Hill", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "hines-001mau": {
+                "player_from": "Rose HS (Greenville, NC)", 
+                "player_from_type": "HS", 
+                "player_name": "Maurice Hines", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "hollin001ste": {
+                "player_from": "Appalachian State University (Boone, NC)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Steve Hollins", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "ingram002joh": {
+                "player_from": "Los Angeles Harbor College (Wilmington, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "John Ingram", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "jones-015tho": {
+                "player_from": "Sam Houston State University (Huntsville, TX)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Thomas Jones", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "judson001eri": {
+                "player_from": "University of California, San Diego (La Jolla, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Erik Judson", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "koehle001jam": {
+                "player_from": "DeAnza College (Cupertino, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Jim Koehler", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "lamb--000rob": {
+                "player_from": "Central HS (Tuscaloosa, AL)", 
+                "player_from_type": "HS", 
+                "player_name": "Robert Lamb", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "lance-001gar": {
+                "player_from": "American River College (Sacramento, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Gary Lance", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "larson003dan": {
+                "player_from": "Birmingham HS (Los Angeles, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Danny Larson", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "lieber001mic": {
+                "player_from": "Westlake HS (Westlake Village, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Mike Lieberthal", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "locket001ron": {
+                "player_from": "Jackson State University (Jackson, MS)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Ron Lockett", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "maudli000eri": {
+                "player_from": "American River College (Sacramento, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Eric Maudlin", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "mcgove001ste": {
+                "player_from": "California State University Los Angeles (Los Angeles, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Steven McGovern", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "miller009dan": {
+                "player_from": "Poway HS (Poway, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Danny Miller", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "montgo001j--": {
+                "player_from": "East Tennessee State University (Johnson City, TN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike Montgomery", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "murphy006mic": {
+                "player_from": "St. Pius X HS (Albuquerque, NM)", 
+                "player_from_type": "HS", 
+                "player_name": "Mike Murphy", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "myers-007mic": {
+                "player_from": "Donegal HS (Mount Joy, PA)", 
+                "player_from_type": "HS", 
+                "player_name": "Michael Myers", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "neitze001rod": {
+                "player_from": "Oregon State University (Corvallis, OR)", 
+                "player_from_type": "4Yr", 
+                "player_name": "R.A. Neitzel", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "novey-000law": {
+                "player_from": "Grant Union HS (Sacramento, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Lawrence Novey", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "nunevi001tho": {
+                "player_from": "West Chester University of Pennsylvania (West Chester, PA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Tom Nuneviller", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "olliso001ron": {
+                "player_from": "Angelina College (Lufkin, TX)", 
+                "player_from_type": "JC", 
+                "player_name": "Scott Ollison", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "pascua002jor": {
+                "player_from": "Aquinas College (Nashville, TN)", 
+                "player_from_type": "JC", 
+                "player_name": "Jorge Pascual", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "paulse001tro": {
+                "player_from": "Stanford University (Palo Alto, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Troy Paulsen", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "richar001jef": {
+                "player_from": "St. Bernard HS (Playa del Rey, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jeff Richardson", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "rideno001rya": {
+                "player_from": "Oregon Institute of Technology (Klamath Falls, OR)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Ryan Ridenour", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "rusk--001tro": {
+                "player_from": "University of South Florida (Tampa, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Troy Rusk", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "ryan--001sea": {
+                "player_from": "Rutgers, the State University of New Jersey (New Brunswick, NJ)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Sean Ryan", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "salamo001joh": {
+                "player_from": "Sto-Rox HS (McKees Rocks, PA)", 
+                "player_from_type": "HS", 
+                "player_name": "John Salamon", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "schwei000tim": {
+                "player_from": "Reedsport HS (Reedsport, OR)", 
+                "player_from_type": "HS", 
+                "player_name": "Tim Schweitzer", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "silver003cha": {
+                "player_from": "Carson-Newman College (Jefferson City, TN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Chadwick Silvers", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "smith-002ter": {
+                "player_from": "Stanhope Elmore HS (Millbrook, AL)", 
+                "player_from_type": "HS", 
+                "player_name": "Terrell Smith", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "spann-000eri": {
+                "player_from": "Stamford Catholic HS (Stamford, CT)", 
+                "player_from_type": "HS", 
+                "player_name": "Eric Spann", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "wagner005jef": {
+                "player_from": "Federal Way HS (Federal Way, WA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jeffrey Wagner", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "washin002oma": {
+                "player_from": "W.W. Samuel HS (Dallas, TX)", 
+                "player_from_type": "HS", 
+                "player_name": "Omar Washington", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "waszgi001rob": {
+                "player_from": "Fort Scott Community College (Fort Scott, KS)", 
+                "player_from_type": "JC", 
+                "player_name": "B.J. Waszgis", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "white-002der": {
+                "player_from": "Santa Rosa Junior College (Santa Rosa, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Derrick White", 
+                "team": "PHI", 
+                "year": "1990"
+            }, 
+            "willia005mic": {
+                "player_from": "Virginia Polytechnic Institute and State University (Blacksburg, VA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike Williams", 
+                "team": "PHI", 
+                "year": "1990"
+            }
+        }
+    }
+}

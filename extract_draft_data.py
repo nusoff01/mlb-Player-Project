@@ -13,11 +13,15 @@ BR_BASE = "http://www.baseball-reference.com"
 SEARCH_BASE = "http://www.baseball-reference.com/draft/?query_type=franch_year&team_ID="
 PLAYER_LINK_BASE = "/register/player.cgi?id="
 
+OUTPUT_DIR = "teamJSON"
+
 TEAM_IDS = ["ANA", "HOU", "OAK", "TOR", "ATL", "MIL", "STL", 
             "CHC", "TBD", "ARI", "LAD", "SFG", "CLE", "SEA", 
             "FLA", "NYM", "WSN", "BAL", "SDP", "PHI", "PIT", 
             "TEX", "BOS", "CIN", "COL", "KCR", "DET", "MIN", 
             "CHW", "NYY"]
+START_YEAR = 1986
+END_YEAR = 2016
 
 def getSearchLink(team_id, year_id):
     return SEARCH_BASE + team_id + "&year_ID=" + year_id + "&draft_type=junreg"
@@ -38,6 +42,8 @@ def extractPlayers(page, team_id, year):
         # print(len(elems))
         for e in elems:
             player_info = extractPlayerInfo(col_nums, e)
+            if(len(player_info) < 4):
+                continue
             player_info["team"] = team_id
             player_info["year"] = year
             players[player_info["player_id"]] = jsonifyPlayer(player_info)
@@ -87,7 +93,6 @@ def extractPlayerInfo(col_nums, row):
         cell = cells[i]
         if(i == col_nums["player_slot"]):
             player_name = extractPlayerName(cell)
-            # print("player_name: " + player_name)
             player_id = extractPlayerId(cell)
         if(i == col_nums["from_slot"]):
             player_from = cell.get_text()
@@ -103,6 +108,8 @@ def extractPlayerInfo(col_nums, row):
 
 def extractPlayerId(player_cell):
     links = player_cell.findAll("a")
+    if(len(links) == 0):
+        return ""
     link = links[len(links) - 1]['href']
     player_id_match = re.search(r'id=(\S*)$', link, re.M|re.I)
     if(player_id_match):
@@ -139,19 +146,6 @@ def verifyData(player_array):
 def checkPlayer(player):
     return (len(player) == 6)
 
-def printPlayerObj(player_obj):
-    attr_count = 0
-    num_attr = len(player_obj)
-
-    print("{")
-    for player_atr in player_obj:
-        attr_string = "    " + player_atr + ": \"" + player_obj[player_atr] + "\""
-        attr_count += 1
-        if(attr_count < num_attr):
-            attr_string += ","
-        print(attr_string)
-    print("}")
-
 def jsonifyPlayer(player):
     return {
         "player_name" : player["player_name"],
@@ -162,18 +156,28 @@ def jsonifyPlayer(player):
     }
  
 ###############################################################################
+TEAM_IDS = ["PHI"]
+START_YEAR = 1989
+END_YEAR = 1989
+OUTPUT_DIR = "temp"
 
-year = 1986
-player_obj = {}
-player_obj["BOS"] = {}
-while(year <= 2016):  
-    page = getDraftPage(getSearchLink("BOS", str(year)))
-    year_obj = extractPlayers(page, "BOS", str(year))
-    player_obj["BOS"][str(year)] = year_obj
-    year += 1
 
-print(json.dumps(player_obj))
-# for player in player_object:
-#     printPlayerObj(player)
+for team in TEAM_IDS:
+    print("working on team " + team)
+    year = START_YEAR
+    player_obj = {}
+    player_obj[team] = {}
+    while(year <= END_YEAR):  
+        print("working on year " + str(year))
+        page = getDraftPage(getSearchLink(team, str(year)))
+        year_obj = extractPlayers(page, team, str(year))
+        player_obj[team][str(year)] = year_obj
+        year += 1
+
+    with open(OUTPUT_DIR + '/' + team + '.json', 'w') as outfile:
+         json.dump(player_obj, outfile, sort_keys = True, indent = 4, 
+                   ensure_ascii=False)
+
+# print(json.dumps(player_obj))
 
 # verifyData(player_array)s

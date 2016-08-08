@@ -5,6 +5,14 @@
 import re
 import json
 
+OUTPUT_DIR = "teamStates"
+
+TEAM_IDS = ["ANA", "HOU", "OAK", "TOR", "ATL", "MIL", "STL", 
+            "CHC", "TBD", "ARI", "LAD", "SFG", "CLE", "SEA", 
+            "FLA", "NYM", "WSN", "BAL", "SDP", "PHI", "PIT", 
+            "TEX", "BOS", "CIN", "COL", "KCR", "DET", "MIN", 
+            "CHW", "NYY"]
+
 STATES = {
     'AK': 'Alaska',
     'AL': 'Alabama',
@@ -63,24 +71,10 @@ STATES = {
     'WI': 'Wisconsin',
     'WV': 'West Virginia',
     'WY': 'Wyoming',
-    # 'AB': 'Alberta, Canada',
-    # 'BC': 'British Columbia, Canada',
-    # 'MB': 'Manitoba, Canada',
-    # 'NB': 'New Brunswick, Canada',
-    # 'NL': 'Newfoundland and Labrador, Canada',
-    # 'NT': 'Northwest Territories, Canada',
-    # 'NS': 'Nova Scotia, Canada',
-    # 'NU': 'Nunavut, Canada',
-    # 'ON': 'Ontario, Canada',
-    # 'PE': 'Prince Edward Island, Canada',
-    # 'QC': 'Quebec, Canada',
-    # 'SK': 'Saskatchewan, Canada',
-    # 'YT': 'Yukon, Canada',
     'CAN': "Canada"
 }
 
 def extractState(player_from):
-    # St. Bernard School (Montville, CT)
     state_match = re.search(r'(\S\S)\)$', player_from, re.M|re.I)
     if(state_match):
         return state_match.group(1)
@@ -92,17 +86,19 @@ def createStateMap(player_array):
     state_map = {}
     for year in player_array:
         year_players = player_array[year]
-        for player_id in year_players:
-            player_count += 1
-            player = year_players[player_id]
-            state = extractState(player["player_from"])
-            if(len(state) != 2):
-                continue;
-            try: 
-                state_map[state] += 1
-            except KeyError:
-                state_map[state] = 1
-    print(player_count)
+        try:
+            for player_id in year_players:
+                player_count += 1
+                player = year_players[player_id]
+                state = extractState(player["player_from"])
+                if(len(state) != 2):
+                    continue;
+                try: 
+                    state_map[state] += 1
+                except KeyError:
+                    state_map[state] = 1
+        except TypeError:
+            continue
     return state_map
 
 
@@ -120,32 +116,118 @@ def convertToCanada(state_map):
         except KeyError:
             continue
     return state_map
+
 ############################################################################### 
-jsonObj = {}
-with open('BOS.json') as data_file:    
-    jsonObj = json.load(data_file)
 
-bos_players = jsonObj["BOS"]
-# for player_id in bos_players:
-#   player = bos_players[player_id]
-#   print(extractState(player["player_from"]))
+complete_state_map = {}
+total_count = 0
+team_state_maps = {}
 
-state_map = createStateMap(bos_players)
-state_map = convertToCanada(state_map)
-state_count = 0
-for state in state_map:
-    state_count += 1
+for team_id in TEAM_IDS:
+    jsonObj = {}
+    with open('teamJSON/' + team_id + '.json') as data_file:    
+        jsonObj = json.load(data_file)
 
-sorted_states = sorted(state_map, key=state_map.get)
-for state in sorted_states:
-    state_name = ""
-    try: 
-        state_name = STATES[state]
-    except KeyError:
-        state_name = state_name
-    if(state_name == ""):
+    bos_players = jsonObj[team_id]
+
+    state_map = createStateMap(bos_players)
+    state_map = convertToCanada(state_map)
+    team_state_maps[team_id] = state_map
+
+    sorted_states = sorted(state_map, key=state_map.get)
+    for state in sorted_states:
+        total_count += state_map[state]
         try:
-            state_name = PROV_TERR[state] + ", Canada"
+            complete_state_map[state] += state_map[state]
         except KeyError:
-            state_name = state
-    print(state_name + ": " + str(state_map[state]))
+            complete_state_map[state] = state_map[state]
+        # print(state_map[state])
+        state_name = ""
+        try: 
+            state_name = STATES[state]
+        except KeyError:
+            state_name = state_name
+        # if(state_name == ""):
+        #     try:
+        #         state_name = PROV_TERR[state] + ", Canada"
+        #     except KeyError:
+        #         state_name = state
+        # print(state_name + ": " + str(state_map[state]))
+
+print(complete_state_map)
+print(total_count)
+# print(team_state_maps)
+
+############################################################################### 
+MAP_STATE_IDS = ["us-ma", "us-wa", "us-ca", "us-or", "us-wi", "us-me", "us-mi", "us-nv", 
+ "us-nm", "us-co", "us-wy", "us-ks", "us-ne", "us-ok", "us-mo", "us-il", 
+ "us-in", "us-vt", "us-ar", "us-tx", "us-ri", "us-al", "us-ms", "us-nc", 
+ "us-va", "us-ia", "us-md", "us-de", "us-pa", "us-nj", "us-ny", "us-id", 
+ "us-sd", "us-ct", "us-nh", "us-ky", "us-oh", "us-tn", "us-wv", "us-dc", 
+ "us-la", "us-fl", "us-ga", "us-sc", "us-mn", "us-mt", "us-nd", "us-az", 
+ "us-ut", "us-hi", "us-ak"]
+
+
+def createDiffString(diff):
+    if diff > 0:
+        return str(diff) + "% more than the MLB average"
+    elif diff < 0:
+        return str(abs(diff)) + "% less than the MLB average"
+    else:
+        return "same as the MLB average"
+
+def findPercentageDiff(num1, num2):
+    return round((((num1 - num2) / num2) * 100), 2)    
+
+
+def addComparisonToAverage(chartsArrayTeam, chartsArrayTotal): 
+    for stateTeam in chartsArrayTeam:
+        for stateTotal in chartsArrayTotal:
+            if(stateTeam["hc-key"] == stateTotal["hc-key"]):
+                print(createDiffString(findPercentageDiff(stateTeam["value"], stateTotal["value"])))
+                diff = findPercentageDiff(stateTeam["value"], stateTotal["value"])
+                diffString = createDiffString(diff)
+                stateTeam["percent"] = stateTeam["value"]
+                stateTeam["value"] = diff
+                stateTeam["diff-string"] = diffString
+                continue
+        continue;
+
+    return chartsArrayTeam
+
+
+def createCompleteChartsArray(state_map):
+    total_num = 0
+    for state in state_map:
+        state_string = "us-" + state.lower()
+        if state_string in MAP_STATE_IDS:
+            total_num += state_map[state]
+
+
+    print("total num: " + str(total_num))
+    chartsArray = []
+    for state in state_map:
+        state_string = "us-" + state.lower()
+        if state_string in MAP_STATE_IDS:
+            percentage = round((float(state_map[state]) / total_num) * 100, 2)
+            chartsArray.append({"hc-key" : state_string,
+                                "value" : percentage, 
+                                "number" : state_map[state],
+                                "state-name": STATES[state]})
+        else:
+            # do something
+            print("NO: " + state)
+    return chartsArray
+
+chartsArray = createCompleteChartsArray(complete_state_map)
+
+BOSchartsArray = createCompleteChartsArray(team_state_maps["NYY"])
+BOSchartsArray = addComparisonToAverage(BOSchartsArray, chartsArray);
+team = "NYY"
+
+with open(OUTPUT_DIR + '/' + team + '.json', 'w') as outfile:
+         json.dump(BOSchartsArray, outfile, sort_keys = True, indent = 4, 
+                   ensure_ascii=False)
+
+# print(json.dumps(BOSchartsArray))
+
