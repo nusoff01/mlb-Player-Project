@@ -6,7 +6,6 @@ $(function () {
         return { x: (map.plotSizeX - tooltipX)/2, y: map.plotSizeY - tooltipY};
     }
 
-            // $('#map-allPlayers').highcharts('Map', {
     var options = {
         chart: {
             renderTo: 'map-allPlayers',
