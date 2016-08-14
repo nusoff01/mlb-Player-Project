@@ -16,7 +16,8 @@ $(function () {
             text : ''
         },
         tooltip: {
-            positioner: positionerFunction
+            positioner: positionerFunction,
+            headerFormat: ""
         },
 
         legend: {
@@ -55,6 +56,7 @@ $(function () {
                 borderWidth: 0,
                 shadow: false,
                 useHTML: true,
+
                 padding: 0,
                 positioner: positionerFunction,
                 pointFormat: '<span><b>{point.state-name}</b><br/>' + 
