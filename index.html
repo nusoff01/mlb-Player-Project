@@ -83,18 +83,14 @@
 
         <hr class="featurette-divider">
         <div class="featurette" id="playersByTeam">
-            <h2 class="featurette-heading" id="teamHeader">Boston Red Sox</h2>
-                <div class="dropdown" id="teamDropdown">
-                  <span  data-toggle="dropdown" id="dropdownTeam">Boston Red Sox <span class="caret"></span></span>
-                  <ul class="dropdown-menu">
-                    <li id="BOS">Boston Red Sox</li>
-                    <li id="NYY">New York Yankees</li>
-                  </ul>
-                </div>
-
-            
-
-            <!-- <h2 class="featurette-heading">Boston Red Sox (1986-2016)</h2> -->
+            <h2 class="featurette-heading">
+                <input type="text" data-provide="typeahead" id="teamSearchBox">
+            </h2>
+            <hr/>
+            <p class="map-description-text">
+                Type in a team so see where they draft players from. Red indicates that they
+                draft more players from that state than the MLB average, blue means less.
+            </p>
             <div class="map" id="map-teamPlayers"></div>
         </div>
         <hr class="featurette-divider">
@@ -111,8 +107,7 @@
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    
+    <script src="js/bootstrap3-typeahead.min.js"></script>
 
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>

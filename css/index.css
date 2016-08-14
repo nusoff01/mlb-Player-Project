@@ -4,3 +4,7 @@
 .map {
 	height:450px;
 }
+
+.map-description-text {
+	text-align: center;
+}
