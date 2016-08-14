@@ -1,0 +1,378 @@
+[
+    {
+        "diff-string": "51.48% less than the MLB average", 
+        "hc-key": "us-wa", 
+        "number": 17, 
+        "percent": 1.15, 
+        "state-name": "Washington", 
+        "value": -51.48
+    }, 
+    {
+        "diff-string": "3.85% more than the MLB average", 
+        "hc-key": "us-de", 
+        "number": 4, 
+        "percent": 0.27, 
+        "state-name": "Delaware", 
+        "value": 3.85
+    }, 
+    {
+        "diff-string": "25.0% more than the MLB average", 
+        "hc-key": "us-dc", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "District of Columbia", 
+        "value": 25.0
+    }, 
+    {
+        "diff-string": "18.0% less than the MLB average", 
+        "hc-key": "us-wi", 
+        "number": 6, 
+        "percent": 0.41, 
+        "state-name": "Wisconsin", 
+        "value": -18.0
+    }, 
+    {
+        "diff-string": "52.38% less than the MLB average", 
+        "hc-key": "us-wv", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "West Virginia", 
+        "value": -52.38
+    }, 
+    {
+        "diff-string": "54.55% less than the MLB average", 
+        "hc-key": "us-hi", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "Hawaii", 
+        "value": -54.55
+    }, 
+    {
+        "diff-string": "9.92% less than the MLB average", 
+        "hc-key": "us-fl", 
+        "number": 157, 
+        "percent": 10.62, 
+        "state-name": "Florida", 
+        "value": -9.92
+    }, 
+    {
+        "diff-string": "16.67% more than the MLB average", 
+        "hc-key": "us-wy", 
+        "number": 1, 
+        "percent": 0.07, 
+        "state-name": "Wyoming", 
+        "value": 16.67
+    }, 
+    {
+        "diff-string": "28.0% less than the MLB average", 
+        "hc-key": "us-nj", 
+        "number": 16, 
+        "percent": 1.08, 
+        "state-name": "New Jersey", 
+        "value": -28.0
+    }, 
+    {
+        "diff-string": "3.17% less than the MLB average", 
+        "hc-key": "us-nm", 
+        "number": 9, 
+        "percent": 0.61, 
+        "state-name": "New Mexico", 
+        "value": -3.17
+    }, 
+    {
+        "diff-string": "18.56% less than the MLB average", 
+        "hc-key": "us-tx", 
+        "number": 109, 
+        "percent": 7.37, 
+        "state-name": "Texas", 
+        "value": -18.56
+    }, 
+    {
+        "diff-string": "15.66% less than the MLB average", 
+        "hc-key": "us-la", 
+        "number": 31, 
+        "percent": 2.1, 
+        "state-name": "Louisiana", 
+        "value": -15.66
+    }, 
+    {
+        "diff-string": "75.0% more than the MLB average", 
+        "hc-key": "us-ak", 
+        "number": 1, 
+        "percent": 0.07, 
+        "state-name": "Alaska", 
+        "value": 75.0
+    }, 
+    {
+        "diff-string": "35.56% less than the MLB average", 
+        "hc-key": "us-nc", 
+        "number": 30, 
+        "percent": 2.03, 
+        "state-name": "North Carolina", 
+        "value": -35.56
+    }, 
+    {
+        "diff-string": "22.22% less than the MLB average", 
+        "hc-key": "us-nd", 
+        "number": 1, 
+        "percent": 0.07, 
+        "state-name": "North Dakota", 
+        "value": -22.22
+    }, 
+    {
+        "diff-string": "12.86% less than the MLB average", 
+        "hc-key": "us-ne", 
+        "number": 9, 
+        "percent": 0.61, 
+        "state-name": "Nebraska", 
+        "value": -12.86
+    }, 
+    {
+        "diff-string": "2.52% more than the MLB average", 
+        "hc-key": "us-tn", 
+        "number": 36, 
+        "percent": 2.44, 
+        "state-name": "Tennessee", 
+        "value": 2.52
+    }, 
+    {
+        "diff-string": "46.01% more than the MLB average", 
+        "hc-key": "us-ny", 
+        "number": 46, 
+        "percent": 3.11, 
+        "state-name": "New York", 
+        "value": 46.01
+    }, 
+    {
+        "diff-string": "8.24% less than the MLB average", 
+        "hc-key": "us-pa", 
+        "number": 23, 
+        "percent": 1.56, 
+        "state-name": "Pennsylvania", 
+        "value": -8.24
+    }, 
+    {
+        "diff-string": "17.39% more than the MLB average", 
+        "hc-key": "us-ri", 
+        "number": 4, 
+        "percent": 0.27, 
+        "state-name": "Rhode Island", 
+        "value": 17.39
+    }, 
+    {
+        "diff-string": "39.29% less than the MLB average", 
+        "hc-key": "us-nv", 
+        "number": 10, 
+        "percent": 0.68, 
+        "state-name": "Nevada", 
+        "value": -39.29
+    }, 
+    {
+        "diff-string": "3.96% more than the MLB average", 
+        "hc-key": "us-va", 
+        "number": 31, 
+        "percent": 2.1, 
+        "state-name": "Virginia", 
+        "value": 3.96
+    }, 
+    {
+        "diff-string": "29.89% less than the MLB average", 
+        "hc-key": "us-co", 
+        "number": 9, 
+        "percent": 0.61, 
+        "state-name": "Colorado", 
+        "value": -29.89
+    }, 
+    {
+        "diff-string": "8.56% less than the MLB average", 
+        "hc-key": "us-ca", 
+        "number": 262, 
+        "percent": 17.73, 
+        "state-name": "California", 
+        "value": -8.56
+    }, 
+    {
+        "diff-string": "8.61% less than the MLB average", 
+        "hc-key": "us-al", 
+        "number": 33, 
+        "percent": 2.23, 
+        "state-name": "Alabama", 
+        "value": -8.61
+    }, 
+    {
+        "diff-string": "10.58% more than the MLB average", 
+        "hc-key": "us-ar", 
+        "number": 17, 
+        "percent": 1.15, 
+        "state-name": "Arkansas", 
+        "value": 10.58
+    }, 
+    {
+        "diff-string": "20.25% more than the MLB average", 
+        "hc-key": "us-il", 
+        "number": 57, 
+        "percent": 3.86, 
+        "state-name": "Illinois", 
+        "value": 20.25
+    }, 
+    {
+        "diff-string": "38.53% less than the MLB average", 
+        "hc-key": "us-ga", 
+        "number": 32, 
+        "percent": 2.17, 
+        "state-name": "Georgia", 
+        "value": -38.53
+    }, 
+    {
+        "diff-string": "2.5% less than the MLB average", 
+        "hc-key": "us-in", 
+        "number": 23, 
+        "percent": 1.56, 
+        "state-name": "Indiana", 
+        "value": -2.5
+    }, 
+    {
+        "diff-string": "52.33% less than the MLB average", 
+        "hc-key": "us-ia", 
+        "number": 6, 
+        "percent": 0.41, 
+        "state-name": "Iowa", 
+        "value": -52.33
+    }, 
+    {
+        "diff-string": "15.91% less than the MLB average", 
+        "hc-key": "us-ma", 
+        "number": 11, 
+        "percent": 0.74, 
+        "state-name": "Massachusetts", 
+        "value": -15.91
+    }, 
+    {
+        "diff-string": "3.8% less than the MLB average", 
+        "hc-key": "us-az", 
+        "number": 45, 
+        "percent": 3.04, 
+        "state-name": "Arizona", 
+        "value": -3.8
+    }, 
+    {
+        "diff-string": "65.52% less than the MLB average", 
+        "hc-key": "us-id", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "Idaho", 
+        "value": -65.52
+    }, 
+    {
+        "diff-string": "6.58% more than the MLB average", 
+        "hc-key": "us-ct", 
+        "number": 12, 
+        "percent": 0.81, 
+        "state-name": "Connecticut", 
+        "value": 6.58
+    }, 
+    {
+        "diff-string": "25.0% more than the MLB average", 
+        "hc-key": "us-me", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "Maine", 
+        "value": 25.0
+    }, 
+    {
+        "diff-string": "18.07% less than the MLB average", 
+        "hc-key": "us-md", 
+        "number": 10, 
+        "percent": 0.68, 
+        "state-name": "Maryland", 
+        "value": -18.07
+    }, 
+    {
+        "diff-string": "34.24% more than the MLB average", 
+        "hc-key": "us-ok", 
+        "number": 51, 
+        "percent": 3.45, 
+        "state-name": "Oklahoma", 
+        "value": 34.24
+    }, 
+    {
+        "diff-string": "71.13% more than the MLB average", 
+        "hc-key": "us-oh", 
+        "number": 49, 
+        "percent": 3.32, 
+        "state-name": "Ohio", 
+        "value": 71.13
+    }, 
+    {
+        "diff-string": "74.03% less than the MLB average", 
+        "hc-key": "us-ut", 
+        "number": 3, 
+        "percent": 0.2, 
+        "state-name": "Utah", 
+        "value": -74.03
+    }, 
+    {
+        "diff-string": "18.06% more than the MLB average", 
+        "hc-key": "us-mo", 
+        "number": 27, 
+        "percent": 1.83, 
+        "state-name": "Missouri", 
+        "value": 18.06
+    }, 
+    {
+        "diff-string": "21.67% less than the MLB average", 
+        "hc-key": "us-mn", 
+        "number": 7, 
+        "percent": 0.47, 
+        "state-name": "Minnesota", 
+        "value": -21.67
+    }, 
+    {
+        "diff-string": "510.97% more than the MLB average", 
+        "hc-key": "us-mi", 
+        "number": 140, 
+        "percent": 9.47, 
+        "state-name": "Michigan", 
+        "value": 510.97
+    }, 
+    {
+        "diff-string": "91.03% more than the MLB average", 
+        "hc-key": "us-ks", 
+        "number": 44, 
+        "percent": 2.98, 
+        "state-name": "Kansas", 
+        "value": 91.03
+    }, 
+    {
+        "diff-string": "5.73% more than the MLB average", 
+        "hc-key": "us-ms", 
+        "number": 30, 
+        "percent": 2.03, 
+        "state-name": "Mississippi", 
+        "value": 5.73
+    }, 
+    {
+        "diff-string": "16.98% less than the MLB average", 
+        "hc-key": "us-sc", 
+        "number": 26, 
+        "percent": 1.76, 
+        "state-name": "South Carolina", 
+        "value": -16.98
+    }, 
+    {
+        "diff-string": "18.42% more than the MLB average", 
+        "hc-key": "us-ky", 
+        "number": 20, 
+        "percent": 1.35, 
+        "state-name": "Kentucky", 
+        "value": 18.42
+    }, 
+    {
+        "diff-string": "58.14% less than the MLB average", 
+        "hc-key": "us-or", 
+        "number": 8, 
+        "percent": 0.54, 
+        "state-name": "Oregon", 
+        "value": -58.14
+    }
+]

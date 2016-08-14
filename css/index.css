@@ -8,3 +8,13 @@
 .map-description-text {
 	text-align: center;
 }
+
+.dropdown-menu {
+	width:100%;
+	text-align: center;
+}
+
+#teamSearchBox {
+	width: 100%;
+	text-align: center;
+}

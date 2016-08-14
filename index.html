@@ -26,6 +26,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style type="text/css">
+        .dropdown-menu { display: block; }
+    </style>
+
 </head>
 
 <body>
@@ -51,9 +55,6 @@
                     </li>
                     <li>
                         <a href="#playersByTeam">By Team</a>
-                    </li>
-                    <li>
-                        <a href="#contact">By Year</a>
                     </li>
                 </ul>
             </div>
@@ -84,13 +85,13 @@
         <hr class="featurette-divider">
         <div class="featurette" id="playersByTeam">
             <h2 class="featurette-heading">
-                <input type="text" data-provide="typeahead" id="teamSearchBox">
+                <input type="text" data-provide="typeahead" id="teamSearchBox" class="typeAhead">
             </h2>
-            <hr/>
             <p class="map-description-text">
                 Type in a team so see where they draft players from. Red indicates that they
                 draft more players from that state than the MLB average, blue means less.
             </p>
+            <div class="state-description" id="team-state-description"></div>
             <div class="map" id="map-teamPlayers"></div>
         </div>
         <hr class="featurette-divider">

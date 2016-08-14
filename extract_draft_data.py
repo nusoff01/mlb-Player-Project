@@ -22,6 +22,7 @@ TEAM_IDS = ["ANA", "HOU", "OAK", "TOR", "ATL", "MIL", "STL",
             "CHW", "NYY"]
 START_YEAR = 1986
 END_YEAR = 2016
+TEAM_IDS = ["TOR"]
 
 def getSearchLink(team_id, year_id):
     return SEARCH_BASE + team_id + "&year_ID=" + year_id + "&draft_type=junreg"
@@ -156,10 +157,6 @@ def jsonifyPlayer(player):
     }
  
 ###############################################################################
-TEAM_IDS = ["PHI"]
-START_YEAR = 1989
-END_YEAR = 1989
-OUTPUT_DIR = "temp"
 
 
 for team in TEAM_IDS:
@@ -177,6 +174,9 @@ for team in TEAM_IDS:
     with open(OUTPUT_DIR + '/' + team + '.json', 'w') as outfile:
          json.dump(player_obj, outfile, sort_keys = True, indent = 4, 
                    ensure_ascii=False)
+
+# def checkTeam(team_id)
+
 
 # print(json.dumps(player_obj))
 

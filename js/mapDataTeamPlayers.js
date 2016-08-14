@@ -4,7 +4,7 @@ $(function () {
     var TEAM_NAME_MAP = [
         {"ANA": "Los Angeles Angels"}, {"HOU": "Houston Astros"}, {"OAK": "Oakland Athletics"}, 
         {"TOR": "Toronto Blue Jays"}, {"ATL": "Atlanta Braves"}, {"MIL": "Milwaukee Brewers"}, 
-        {"STL": "St. Louis Cardinals"}, {"CHC": "Chicago Cubs"}, {"TBD": "Tama Bay Rays"}, 
+        {"STL": "St. Louis Cardinals"}, {"CHC": "Chicago Cubs"}, {"TBD": "Tampa Bay Rays"}, 
         {"ARI": "Arizona Diamondbacks"}, {"LAD": "Los Angeles Dodgers"}, 
         {"SFG": "San Francisco Giants"}, {"CLE": "Cleveland Indians"}, {"SEA": "Seattle Mariners"}, 
         {"FLA": "Florida Marlins"}, {"NYM": "New York Mets"}, {"WSN": "Washington Nationals"}, 
@@ -84,8 +84,6 @@ $(function () {
         series : teamSeries
     }
 
-    console.log("right before mapping options")
-    console.log(options)
     var map = new Highcharts.Map(options);
 
     function setTeam(team) {
@@ -146,5 +144,10 @@ $(function () {
     });
 
     $("#teamSearchBox").val("Boston Red Sox");
+    $(document).on('typeAhead:opened',function(){
+        $('.dropdown-menu').css('width',$('#teamSearchBox').width() + 'px');
+        console.log("opened")
+    });
+
 
 });

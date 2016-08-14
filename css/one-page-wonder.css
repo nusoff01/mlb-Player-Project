@@ -58,6 +58,7 @@ body {
 .featurette-heading {
     font-size: 50px;
     text-align: center;
+    position: relative;
 }
 
 .featurette-search-box {

@@ -5,6 +5,8 @@
 import re
 import json
 
+team = "NYY"
+
 OUTPUT_DIR = "teamStates"
 
 TEAM_IDS = ["ANA", "HOU", "OAK", "TOR", "ATL", "MIL", "STL", 
@@ -85,6 +87,7 @@ def createStateMap(player_array):
     player_count = 0
     state_map = {}
     for year in player_array:
+        print("year: " + str(year))
         year_players = player_array[year]
         try:
             for player_id in year_players:
@@ -117,20 +120,38 @@ def convertToCanada(state_map):
             continue
     return state_map
 
+def verifyTeamData(player_array):
+    num_years = 0;
+    for year in player_array:
+        num_years += 1
+        year_players = player_array[year]
+        if(not year_players):
+            print("no players in year " + str(year) + "!")
+        else:
+            print("num players in " + str(year) + ": " + str(len(year_players)))
+    print("num years (31): " + str(num_years))
+        # if(year == "1996"):
+        #     for player_id in year_players:
+        #         player = year_players[player_id]
+        #         print(player)
+
 ############################################################################### 
 
 complete_state_map = {}
 total_count = 0
 team_state_maps = {}
+jsonObj = {}
+team_to_check_players = {}
 
 for team_id in TEAM_IDS:
-    jsonObj = {}
     with open('teamJSON/' + team_id + '.json') as data_file:    
         jsonObj = json.load(data_file)
+    team_players = jsonObj[team_id]
+    
+    if(team_id == team):
+        team_to_check_players = team_players
 
-    bos_players = jsonObj[team_id]
-
-    state_map = createStateMap(bos_players)
+    state_map = createStateMap(team_players)
     state_map = convertToCanada(state_map)
     team_state_maps[team_id] = state_map
 
@@ -221,13 +242,13 @@ def createCompleteChartsArray(state_map):
 
 chartsArray = createCompleteChartsArray(complete_state_map)
 
-BOSchartsArray = createCompleteChartsArray(team_state_maps["NYY"])
+BOSchartsArray = createCompleteChartsArray(team_state_maps[team])
 BOSchartsArray = addComparisonToAverage(BOSchartsArray, chartsArray);
-team = "NYY"
 
 with open(OUTPUT_DIR + '/' + team + '.json', 'w') as outfile:
          json.dump(BOSchartsArray, outfile, sort_keys = True, indent = 4, 
                    ensure_ascii=False)
 
+verifyTeamData(team_to_check_players)
 # print(json.dumps(BOSchartsArray))
 

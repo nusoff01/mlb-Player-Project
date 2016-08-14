@@ -762,7 +762,421 @@
                 "year": "1988"
             }
         }, 
-        "1989": null, 
+        "1989": {
+            "abbott001kur": {
+                "player_from": "St. Petersburg College (St. Petersburg, FL)", 
+                "player_from_type": "JC", 
+                "player_name": "Kurt Abbott", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "alliso001dan": {
+                "player_from": "James Madison University (Harrisonburg, VA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Dana Allison", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "anders018jam": {
+                "player_from": "Hillsborough HS (Tampa, FL)", 
+                "player_from_type": "HS", 
+                "player_name": "Jamie Anderson", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "beasle002and": {
+                "player_from": "Virginia Military Institute (Lexington, VA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Andy Beasley", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "breyfo000tod": {
+                "player_from": "Scottsdale Community College (Scottsdale, AZ)", 
+                "player_from_type": "JC", 
+                "player_name": "Todd Breyfogle", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "brimha001bra": {
+                "player_from": "Brigham Young University-Idaho (Rexburg, ID)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Brad Brimhall", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "campa-001eri": {
+                "player_from": "San Bernardino Valley College (San Bernardino, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Eric Campa", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "chitre001ste": {
+                "player_from": "Stanford University (Palo Alto, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Steve Chitren", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "conte-001mic": {
+                "player_from": "Virginia Polytechnic Institute and State University (Blacksburg, VA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike Conte", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "cooley001fre": {
+                "player_from": "University of Southern Mississippi (Hattiesburg, MS)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Fred Cooley", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "cormie001rus": {
+                "player_from": "Northeastern University (Boston, MA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Russ Cormier", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "davis-005jas": {
+                "player_from": "Upland HS (Upland, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jason Davis", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "eager-000bra": {
+                "player_from": "Brigham Young University (Provo, UT)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Brad Eager", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "erwin-001sco": {
+                "player_from": "Georgia Institute of Technology (Atlanta, GA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Scott Erwin", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "gibbs-003jam": {
+                "player_from": "San Diego State University (San Diego, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jim Gibbs", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "grimes001mic": {
+                "player_from": "University of Michigan (Ann Arbor, MI)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike Grimes", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "gulled001wil": {
+                "player_from": "Enterprise-Ozark Community College (Enterprise, AL)", 
+                "player_from_type": "JC", 
+                "player_name": "Hugh Gulledge", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "hardwi000sea": {
+                "player_from": "North Myrtle Beach HS (Little River, SC)", 
+                "player_from_type": "HS", 
+                "player_name": "Sean Hardwick", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "hendle001bre": {
+                "player_from": "Georgia Southern University (Statesboro, GA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Brett Hendley", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "henry-001sco": {
+                "player_from": "University of South Florida (Tampa, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Scott Henry", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "jones-001cli": {
+                "player_from": "Laney College (Oakland, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Cliff Jones", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "kelley002chr": {
+                "player_from": "Lurleen B Wallace Community College (Andalusia, AL)", 
+                "player_from_type": "JC", 
+                "player_name": "Chris Kelley", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "kracl-001dar": {
+                "player_from": "Brigham Young University (Provo, UT)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Darin Kracl", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "krokro001sea": {
+                "player_from": "Southwestern Oklahoma State University (Weatherford, OK)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Sean Krokroskia", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lardiz001rub": {
+                "player_from": "Cochise Community College (Douglas, AZ)", 
+                "player_from_type": "JC", 
+                "player_name": "Ruben Lardizabal", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "largus001lev": {
+                "player_from": "Mount Eden HS (Hayward, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Levon Largusa", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "latter002dav": {
+                "player_from": "University of Southern California (Los Angeles, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Dave Latter", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lofthu001kev": {
+                "player_from": "University of Nevada-Las Vegas (Las Vegas, NV)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Kevin Lofthus", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lohman000chr": {
+                "player_from": "Notre Dame HS (Sherman Oaks, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Christopher Lohman", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lovan-000ric": {
+                "player_from": "Lakewood HS (Lakewood, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Richard Lovan", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lydy--001don": {
+                "player_from": "South Mountain Community College (Phoenix, AZ)", 
+                "player_from_type": "JC", 
+                "player_name": "Scott Lydy", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lynch-001jef": {
+                "player_from": "University of California, Santa Barbara (Santa Barbara, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jeff Lynch", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "lyons-001mar": {
+                "player_from": "Eastern Washington University (Cheney, WA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mario Lyons", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "mccart001sco": {
+                "player_from": "San Jacinto College (Pasadena, TX)", 
+                "player_from_type": "JC", 
+                "player_name": "Scott McCarty", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "mccray001c--": {
+                "player_from": "University of Florida (Gainesville, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Todd McCray", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "mieske001mat": {
+                "player_from": "Western Michigan University (Kalamazoo, MI)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Matt Mieske", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "miller017rob": {
+                "player_from": "Anderson College (Anderson, SC)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Russ Miller", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "mohler001mic": {
+                "player_from": "Nicholls State University (Thibodaux, LA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike Mohler", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "orr---001dan": {
+                "player_from": "Glendale Community College (Glendale, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Dan Orr", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "osteen001gav": {
+                "player_from": "Allegany College of Maryland (Cumberland, MD)", 
+                "player_from_type": "JC", 
+                "player_name": "Gavin Osteen", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "paquet001cra": {
+                "player_from": "Golden West College (Huntington Beach, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Craig Paquette", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "peete-000rod": {
+                "player_from": "University of Southern California (Los Angeles, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Rodney Peete", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "pritch001ant": {
+                "player_from": "Faulkner State College (Bay Minette, AL)", 
+                "player_from_type": "JC", 
+                "player_name": "Tony Pritchett", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "rhineh000dal": {
+                "player_from": "Sullivan Central HS (Blountville, TN)", 
+                "player_from_type": "HS", 
+                "player_name": "Dallas Rhinehart", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "richte000rob": {
+                "player_from": "Arcadia HS (Arcadia, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Robert Richter", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "rivera001wal": {
+                "player_from": "Chipola College (Marianna, FL)", 
+                "player_from_type": "JC", 
+                "player_name": "Walter Rivera", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "ross--001gar": {
+                "player_from": "Grossmont College (El Cajon, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Gary Ross", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "russel001tod": {
+                "player_from": "Pearl River Community College (Poplarville, MS)", 
+                "player_from_type": "JC", 
+                "player_name": "Todd Russell", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "sammon001don": {
+                "player_from": "Augusta State University (Augusta, GA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Lee Sammons", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "shocke001ric": {
+                "player_from": "Pepperdine University (Malibu, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Scott Shockey", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "smith-004tod": {
+                "player_from": "Lassen College (Susanville, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Todd Smith", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "tejeck000joh": {
+                "player_from": "Mount Carmel HS (San Diego, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "John Tejeck", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "tredwa001wil": {
+                "player_from": "Flagler College (St. Augustine, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Ed Tredway", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "twitty001dou": {
+                "player_from": "University of Nebraska at Lincoln (Lincoln, NE)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Doug Twitty", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "vice--001dar": {
+                "player_from": "University of California, Berkeley (Berkeley, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Darryl Vice", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "waggon001jam": {
+                "player_from": "Austin Peay State University (Clarksville, TN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jim Waggoner", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "walker002rod": {
+                "player_from": "Morristown West HS (Morristown, TN)", 
+                "player_from_type": "HS", 
+                "player_name": "Roderick Walker", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "weaver004wil": {
+                "player_from": "Baylor University (Waco, TX)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Trent Weaver", 
+                "team": "OAK", 
+                "year": "1989"
+            }, 
+            "wilkie001jam": {
+                "player_from": "Portage HS (Portage, WI)", 
+                "player_from_type": "HS", 
+                "player_name": "Jim Wilkie", 
+                "team": "OAK", 
+                "year": "1989"
+            }
+        }, 
         "1990": {
             "bailey001reg": {
                 "player_from": "Coffee HS (Douglas, GA)", 

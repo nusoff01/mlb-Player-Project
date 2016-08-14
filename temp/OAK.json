@@ -1,0 +1,356 @@
+{
+    "OAK": {
+        "1993": {
+            "adams-004wil": {
+                "player_from": "Stanford University (Palo Alto, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Willie Adams", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "baldwi001sco": {
+                "player_from": "Lewis-Clark State College (Lewiston, ID)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Scott Baldwin", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "banks-001ron": {
+                "player_from": "California State University Fullerton (Fullerton, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Tony Banks", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "barr--001jon": {
+                "player_from": "Maclay HS (Tallahassee, FL)", 
+                "player_from_type": "HS", 
+                "player_name": "Tucker Barr", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "bengoe001bra": {
+                "player_from": "Lewis-Clark State College (Lewiston, ID)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Brandy Bengoechea", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "carr--001jef": {
+                "player_from": "Mission Viejo HS (Mission Viejo, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jeff Carr", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "cervan001ped": {
+                "player_from": "Lincoln HS (Los Angeles, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Peter Cervantes", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "choi--000dan": {
+                "player_from": "California State University Long Beach (Long Beach, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Daniel Choi", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "cortez001san": {
+                "player_from": "Millikan HS (Long Beach, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Sonny Cortez", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "damico002jef": {
+                "player_from": "Redmond HS (Redmond, WA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jeff D'Amico", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "farmer002jon": {
+                "player_from": "Porterville College (Porterville, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Jon Farmer", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "fuller001eri": {
+                "player_from": "West HS (Bakersfield, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Eric Fuller", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "fuller002ste": {
+                "player_from": "St. Charles HS (St. Charles, IL)", 
+                "player_from_type": "HS", 
+                "player_name": "Steve Fuller", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "griffi001cha": {
+                "player_from": "Garinger HS (Charlotte, NC)", 
+                "player_from_type": "HS", 
+                "player_name": "Chad Griffin", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "hambur001leo": {
+                "player_from": "Casa Roble HS (Orangevale, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Leon Hamburg", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "harmer001fra": {
+                "player_from": "Lake Brantley HS (Altamonte Springs, FL)", 
+                "player_from_type": "HS", 
+                "player_name": "Frank Harmer", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "harris001eri": {
+                "player_from": "Columbia State Community College (Columbia, TN)", 
+                "player_from_type": "JC", 
+                "player_name": "Eric Harris", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "huber-001aar": {
+                "player_from": "Panola College (Carthage, TX)", 
+                "player_from_type": "JC", 
+                "player_name": "Aaron Huber", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "kolb--001bra": {
+                "player_from": "Chabot College (Hayward, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Brandon Kolb", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "kubins001tim": {
+                "player_from": "University of California, Los Angeles (Los Angeles, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Tim Kubinski", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "larson001tob": {
+                "player_from": "Lassen College (Susanville, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Toby Larson", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "light-001tal": {
+                "player_from": "Seminole Community College (Sanford, FL)", 
+                "player_from_type": "JC", 
+                "player_name": "Tal Light", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "lowe--001jas": {
+                "player_from": "University of Mississippi (Oxford, MS)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jason Lowe", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "luft--001tho": {
+                "player_from": "Warner Southern College (Lake Wales, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Tom Luft", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "mannin001der": {
+                "player_from": "University of North Carolina at Chapel Hill (Chapel Hill, NC)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Derek Manning", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "martin008fel": {
+                "player_from": "Juan Ponce De Leon HS (San Juan, PR)", 
+                "player_from_type": "HS", 
+                "player_name": "Felix Martinez", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "mcdona003jas": {
+                "player_from": "University of Houston (Houston, TX)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jason McDonald", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "mcleod001mic": {
+                "player_from": "University of South Carolina (Columbia, SC)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mike McLeod", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "michal001chr": {
+                "player_from": "University of Notre Dame (South Bend, IN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Chris Michalak", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "montel001jos": {
+                "player_from": "Truett-McConnell College (Cleveland, GA)", 
+                "player_from_type": "JC", 
+                "player_name": "Joe Montelongo", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "moore-008rob": {
+                "player_from": "Lassen College (Susanville, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Bobby Moore", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "morale001wil": {
+                "player_from": "University of Arizona (Tucson, AZ)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Willie Morales", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "mosche001mic": {
+                "player_from": "La Mirada HS (La Mirada, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Mike Moschetti", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "newman001dam": {
+                "player_from": "Fullerton College (Fullerton, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Damon Newman", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "ortega001ran": {
+                "player_from": "Santa Clara University (Santa Clara, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Randy Ortega", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "philli007joh": {
+                "player_from": "Bullard HS (Fresno, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "John Phillips", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "poor--001jef": {
+                "player_from": "Los Angeles Harbor College (Wilmington, CA)", 
+                "player_from_type": "JC", 
+                "player_name": "Jeff Poor", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "rajott001jas": {
+                "player_from": "University of Maine at Orono (Orono, ME)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jason Rajotte", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "reese-001mat": {
+                "player_from": "Indiana State University (Terre Haute, IN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Mat Reese", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "richar001jef": {
+                "player_from": "California State University Long Beach (Long Beach, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Jeff Richardson", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "sander002wil": {
+                "player_from": "Cumberland University (Lebanon, TN)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Pat Sanders", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "smith-002and": {
+                "player_from": "A. L. Brown HS (Kannapolis, NC)", 
+                "player_from_type": "HS", 
+                "player_name": "Andy Smith", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "spiezi001sco": {
+                "player_from": "University of Illinois at Urbana-Champaign (Champaign, IL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Scott Spiezio", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "walsh-001mat": {
+                "player_from": "Boston College (Chestnut Hill, MA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Matt Walsh", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "warner001bry": {
+                "player_from": "Monrovia HS (Monrovia, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Bryan Warner", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "wasdin001joh": {
+                "player_from": "Florida State University (Tallahassee, FL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "John Wasdin", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "weisbr000mat": {
+                "player_from": "Bradley University (Peoria, IL)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Matthew Weisbruch", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "whatle002bri": {
+                "player_from": "California State University Long Beach (Long Beach, CA)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Brian Whatley", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "whitak001ant": {
+                "player_from": "University of Arkansas (Fayetteville, AR)", 
+                "player_from_type": "4Yr", 
+                "player_name": "Ryan Whitaker", 
+                "team": "OAK", 
+                "year": "1993"
+            }, 
+            "wiebe-002jay": {
+                "player_from": "Foothill HS (Bakersfield, CA)", 
+                "player_from_type": "HS", 
+                "player_name": "Jay Wiebe", 
+                "team": "OAK", 
+                "year": "1993"
+            }
+        }
+    }
+}
