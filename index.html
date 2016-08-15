@@ -69,13 +69,19 @@
             <div class="container">
                 <h2>MLB Draft Geo</h2>
                 <h3>Where do teams draft players from?</h3>
+
             </div>
         </div>
     </header>
 
-    <!-- Page Content -->
     <div class="container">
-        <!-- First Featurette -->
+        <div class="featurette" id="description">
+            <p>Each year the 30 teams in <b>Major League Baseball</b> hold a <b>draft</b> to select collegiate and
+               high school players to join their organizations. With data from <b><a href="">baseball-reference.com</a></b> 
+               which specifies which school each player was drafted from, the following <b>graphs</b> were made
+               which indicate the <b>frequency</b> of selections from each <b>state</b>.</p>
+        </div>
+
         <div class="featurette" id="allPlayers">
             <hr class="featurette-divider">
             <h2 class="featurette-heading">All Players (1986-2016)</h2>
@@ -88,8 +94,7 @@
                 <input type="text" data-provide="typeahead" id="teamSearchBox" class="typeAhead">
             </h2>
             <p class="map-description-text">
-                Type in a team so see where they draft players from. Red indicates that they
-                draft more players from that state than the MLB average, blue means less.
+                Type in a team to see where they draft from
             </p>
             <div class="state-description" id="team-state-description"></div>
             <div class="map" id="map-teamPlayers"></div>
@@ -101,6 +106,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>Data credited to <a href="http://baseball-reference.com">baseball-reference.com</a></p>
+                    <p>Maps credited to <a href="http://highcharts.com">HighCharts</a></p>
                 </div>
             </div>
         </footer>

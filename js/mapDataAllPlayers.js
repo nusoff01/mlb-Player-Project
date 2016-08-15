@@ -20,7 +20,7 @@ $(function () {
         },
 
         legend: {
-            enabled: false
+            enabled: true
         },
 
         mapNavigation: {
@@ -34,8 +34,16 @@ $(function () {
         colorAxis: {
             type: "logarithmic",
             
-            minColor: '#55FFFF',
-            maxColor: '#FF0000'
+           stops: [
+                [0, '#660000'],
+                [0.5, '#ffffff'],
+                [.999, '#00664d']
+            ],
+            minColor: "red",
+            maxColor: "blue",
+            min: 0.01,
+            max: 100,
+            dataClassColor: "tween"
         },
 
         series : [{

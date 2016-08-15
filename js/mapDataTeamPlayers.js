@@ -67,11 +67,24 @@ $(function () {
             enableMouseWheelZoom: false
         },
         legend: {
-            enabled: false
+            enabled: true
         },
 
         colorAxis: {
-            dataClasses: createColorScheme()
+            type: "linear",
+            
+            stops: [
+                [0, '#660000'],
+                [.4, '#aa8888'],
+                [.5, '#ffffff'],
+                [.6, '#88aa9e'],
+                [1, '#00664d']
+            ],
+            min: -150,
+            max: 150,
+            dataClassColor: "tween"
+
+            // dataClasses: createColorScheme()
         },
         tooltip: {
             positioner: positionerFunction,

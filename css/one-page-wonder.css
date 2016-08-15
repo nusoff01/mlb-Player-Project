@@ -6,9 +6,12 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgba(255,255,255,0.9);
 }
 
-
+h1, h2, h3, h4, h5, p {
+    background: rgba(255,255,255,0.9);
+}
 
 .header-image {
     display: block;
@@ -21,28 +24,36 @@ body {
 }
 
 .headline {
-    padding: 50px 0;
-    padding-bottom: 0px;
-    background-color: #a9deb7;
+    padding: 30px 0;
+    /*background-color: #a9deb7;*/
+    /*background-color: black;*/
+    background-color: rgba(100,0,100,0.5);
 }
 
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
 }
 
 .headline h2 {
     font-size: 100px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
-
 }
 
 .headline h3 {
     font-size: 35px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+}
+
+#description b {
+    font-weight: 900;
+    color:black;
+}
+
+#description p {
+    text-align: left;
+    font-size:130%;
+    color: #674f67;
 }
 
 .featurette-divider {
