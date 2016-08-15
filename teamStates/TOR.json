@@ -1,6 +1,6 @@
 [
     {
-        "diff-string": "10.97% more than the MLB average", 
+        "diff-string": "10.97% above the MLB avg.", 
         "hc-key": "us-wa", 
         "number": 40, 
         "percent": 2.63, 
@@ -8,7 +8,7 @@
         "value": 10.97
     }, 
     {
-        "diff-string": "26.92% more than the MLB average", 
+        "diff-string": "26.92% above the MLB avg.", 
         "hc-key": "us-de", 
         "number": 5, 
         "percent": 0.33, 
@@ -16,7 +16,7 @@
         "value": 26.92
     }, 
     {
-        "diff-string": "18.75% less than the MLB average", 
+        "diff-string": "18.75% below the MLB avg.", 
         "hc-key": "us-dc", 
         "number": 2, 
         "percent": 0.13, 
@@ -24,7 +24,7 @@
         "value": -18.75
     }, 
     {
-        "diff-string": "34.0% less than the MLB average", 
+        "diff-string": "34.0% below the MLB avg.", 
         "hc-key": "us-wi", 
         "number": 5, 
         "percent": 0.33, 
@@ -32,7 +32,7 @@
         "value": -34.0
     }, 
     {
-        "diff-string": "88.1% more than the MLB average", 
+        "diff-string": "88.1% above the MLB avg.", 
         "hc-key": "us-wv", 
         "number": 12, 
         "percent": 0.79, 
@@ -40,7 +40,7 @@
         "value": 88.1
     }, 
     {
-        "diff-string": "4.55% more than the MLB average", 
+        "diff-string": "4.55% above the MLB avg.", 
         "hc-key": "us-hi", 
         "number": 7, 
         "percent": 0.46, 
@@ -48,7 +48,7 @@
         "value": 4.55
     }, 
     {
-        "diff-string": "18.66% more than the MLB average", 
+        "diff-string": "18.66% above the MLB avg.", 
         "hc-key": "us-fl", 
         "number": 213, 
         "percent": 13.99, 
@@ -56,7 +56,7 @@
         "value": 18.66
     }, 
     {
-        "diff-string": "12.67% less than the MLB average", 
+        "diff-string": "12.67% below the MLB avg.", 
         "hc-key": "us-nj", 
         "number": 20, 
         "percent": 1.31, 
@@ -64,7 +64,7 @@
         "value": -12.67
     }, 
     {
-        "diff-string": "14.29% more than the MLB average", 
+        "diff-string": "14.29% above the MLB avg.", 
         "hc-key": "us-nm", 
         "number": 11, 
         "percent": 0.72, 
@@ -72,7 +72,7 @@
         "value": 14.29
     }, 
     {
-        "diff-string": "15.14% less than the MLB average", 
+        "diff-string": "15.14% below the MLB avg.", 
         "hc-key": "us-tx", 
         "number": 117, 
         "percent": 7.68, 
@@ -80,7 +80,7 @@
         "value": -15.14
     }, 
     {
-        "diff-string": "18.47% more than the MLB average", 
+        "diff-string": "18.47% above the MLB avg.", 
         "hc-key": "us-la", 
         "number": 45, 
         "percent": 2.95, 
@@ -88,7 +88,7 @@
         "value": 18.47
     }, 
     {
-        "diff-string": "16.51% less than the MLB average", 
+        "diff-string": "16.51% below the MLB avg.", 
         "hc-key": "us-nc", 
         "number": 40, 
         "percent": 2.63, 
@@ -96,7 +96,7 @@
         "value": -16.51
     }, 
     {
-        "diff-string": "22.22% less than the MLB average", 
+        "diff-string": "22.22% below the MLB avg.", 
         "hc-key": "us-nd", 
         "number": 1, 
         "percent": 0.07, 
@@ -104,7 +104,7 @@
         "value": -22.22
     }, 
     {
-        "diff-string": "52.86% less than the MLB average", 
+        "diff-string": "52.86% below the MLB avg.", 
         "hc-key": "us-ne", 
         "number": 5, 
         "percent": 0.33, 
@@ -112,7 +112,7 @@
         "value": -52.86
     }, 
     {
-        "diff-string": "8.82% less than the MLB average", 
+        "diff-string": "8.82% below the MLB avg.", 
         "hc-key": "us-tn", 
         "number": 33, 
         "percent": 2.17, 
@@ -120,7 +120,7 @@
         "value": -8.82
     }, 
     {
-        "diff-string": "88.26% more than the MLB average", 
+        "diff-string": "88.26% above the MLB avg.", 
         "hc-key": "us-ny", 
         "number": 61, 
         "percent": 4.01, 
@@ -128,7 +128,7 @@
         "value": 88.26
     }, 
     {
-        "diff-string": "15.88% more than the MLB average", 
+        "diff-string": "15.88% above the MLB avg.", 
         "hc-key": "us-pa", 
         "number": 30, 
         "percent": 1.97, 
@@ -136,7 +136,7 @@
         "value": 15.88
     }, 
     {
-        "diff-string": "69.57% more than the MLB average", 
+        "diff-string": "69.57% above the MLB avg.", 
         "hc-key": "us-ri", 
         "number": 6, 
         "percent": 0.39, 
@@ -144,7 +144,7 @@
         "value": 69.57
     }, 
     {
-        "diff-string": "24.11% less than the MLB average", 
+        "diff-string": "24.11% below the MLB avg.", 
         "hc-key": "us-nv", 
         "number": 13, 
         "percent": 0.85, 
@@ -152,7 +152,7 @@
         "value": -24.11
     }, 
     {
-        "diff-string": "69.57% less than the MLB average", 
+        "diff-string": "69.57% below the MLB avg.", 
         "hc-key": "us-nh", 
         "number": 1, 
         "percent": 0.07, 
@@ -160,7 +160,7 @@
         "value": -69.57
     }, 
     {
-        "diff-string": "8.91% less than the MLB average", 
+        "diff-string": "8.91% below the MLB avg.", 
         "hc-key": "us-va", 
         "number": 28, 
         "percent": 1.84, 
@@ -168,7 +168,7 @@
         "value": -8.91
     }, 
     {
-        "diff-string": "24.14% less than the MLB average", 
+        "diff-string": "24.14% below the MLB avg.", 
         "hc-key": "us-co", 
         "number": 10, 
         "percent": 0.66, 
@@ -176,7 +176,7 @@
         "value": -24.14
     }, 
     {
-        "diff-string": "0.93% more than the MLB average", 
+        "diff-string": "0.93% above the MLB avg.", 
         "hc-key": "us-ca", 
         "number": 298, 
         "percent": 19.57, 
@@ -184,7 +184,7 @@
         "value": 0.93
     }, 
     {
-        "diff-string": "11.07% less than the MLB average", 
+        "diff-string": "11.07% below the MLB avg.", 
         "hc-key": "us-al", 
         "number": 33, 
         "percent": 2.17, 
@@ -192,7 +192,7 @@
         "value": -11.07
     }, 
     {
-        "diff-string": "30.77% less than the MLB average", 
+        "diff-string": "30.77% below the MLB avg.", 
         "hc-key": "us-ar", 
         "number": 11, 
         "percent": 0.72, 
@@ -200,7 +200,7 @@
         "value": -30.77
     }, 
     {
-        "diff-string": "26.48% less than the MLB average", 
+        "diff-string": "26.48% below the MLB avg.", 
         "hc-key": "us-il", 
         "number": 36, 
         "percent": 2.36, 
@@ -208,7 +208,7 @@
         "value": -26.48
     }, 
     {
-        "diff-string": "14.45% less than the MLB average", 
+        "diff-string": "14.45% below the MLB avg.", 
         "hc-key": "us-ga", 
         "number": 46, 
         "percent": 3.02, 
@@ -216,7 +216,7 @@
         "value": -14.45
     }, 
     {
-        "diff-string": "2.5% more than the MLB average", 
+        "diff-string": "2.5% above the MLB avg.", 
         "hc-key": "us-in", 
         "number": 25, 
         "percent": 1.64, 
@@ -224,7 +224,7 @@
         "value": 2.5
     }, 
     {
-        "diff-string": "1.16% less than the MLB average", 
+        "diff-string": "1.16% below the MLB avg.", 
         "hc-key": "us-ia", 
         "number": 13, 
         "percent": 0.85, 
@@ -232,7 +232,7 @@
         "value": -1.16
     }, 
     {
-        "diff-string": "10.23% less than the MLB average", 
+        "diff-string": "10.23% below the MLB avg.", 
         "hc-key": "us-ma", 
         "number": 12, 
         "percent": 0.79, 
@@ -240,7 +240,7 @@
         "value": -10.23
     }, 
     {
-        "diff-string": "1.9% more than the MLB average", 
+        "diff-string": "1.9% above the MLB avg.", 
         "hc-key": "us-az", 
         "number": 49, 
         "percent": 3.22, 
@@ -248,7 +248,7 @@
         "value": 1.9
     }, 
     {
-        "diff-string": "13.79% more than the MLB average", 
+        "diff-string": "13.79% above the MLB avg.", 
         "hc-key": "us-id", 
         "number": 10, 
         "percent": 0.66, 
@@ -256,7 +256,7 @@
         "value": 13.79
     }, 
     {
-        "diff-string": "3.95% more than the MLB average", 
+        "diff-string": "3.95% above the MLB avg.", 
         "hc-key": "us-ct", 
         "number": 12, 
         "percent": 0.79, 
@@ -264,7 +264,7 @@
         "value": 3.95
     }, 
     {
-        "diff-string": "18.75% less than the MLB average", 
+        "diff-string": "18.75% below the MLB avg.", 
         "hc-key": "us-me", 
         "number": 2, 
         "percent": 0.13, 
@@ -272,7 +272,7 @@
         "value": -18.75
     }, 
     {
-        "diff-string": "20.48% less than the MLB average", 
+        "diff-string": "20.48% below the MLB avg.", 
         "hc-key": "us-md", 
         "number": 10, 
         "percent": 0.66, 
@@ -280,7 +280,7 @@
         "value": -20.48
     }, 
     {
-        "diff-string": "5.45% less than the MLB average", 
+        "diff-string": "5.45% below the MLB avg.", 
         "hc-key": "us-ok", 
         "number": 37, 
         "percent": 2.43, 
@@ -288,7 +288,7 @@
         "value": -5.45
     }, 
     {
-        "diff-string": "5.15% more than the MLB average", 
+        "diff-string": "5.15% above the MLB avg.", 
         "hc-key": "us-oh", 
         "number": 31, 
         "percent": 2.04, 
@@ -296,7 +296,7 @@
         "value": 5.15
     }, 
     {
-        "diff-string": "57.14% less than the MLB average", 
+        "diff-string": "57.14% below the MLB avg.", 
         "hc-key": "us-ut", 
         "number": 5, 
         "percent": 0.33, 
@@ -304,7 +304,7 @@
         "value": -57.14
     }, 
     {
-        "diff-string": "5.81% more than the MLB average", 
+        "diff-string": "5.81% above the MLB avg.", 
         "hc-key": "us-mo", 
         "number": 25, 
         "percent": 1.64, 
@@ -312,7 +312,7 @@
         "value": 5.81
     }, 
     {
-        "diff-string": "45.0% less than the MLB average", 
+        "diff-string": "45.0% below the MLB avg.", 
         "hc-key": "us-mn", 
         "number": 5, 
         "percent": 0.33, 
@@ -320,7 +320,7 @@
         "value": -45.0
     }, 
     {
-        "diff-string": "27.1% more than the MLB average", 
+        "diff-string": "27.1% above the MLB avg.", 
         "hc-key": "us-mi", 
         "number": 30, 
         "percent": 1.97, 
@@ -328,7 +328,7 @@
         "value": 27.1
     }, 
     {
-        "diff-string": "28.21% less than the MLB average", 
+        "diff-string": "28.21% below the MLB avg.", 
         "hc-key": "us-ks", 
         "number": 17, 
         "percent": 1.12, 
@@ -336,7 +336,7 @@
         "value": -28.21
     }, 
     {
-        "diff-string": "30.0% more than the MLB average", 
+        "diff-string": "30.0% above the MLB avg.", 
         "hc-key": "us-mt", 
         "number": 2, 
         "percent": 0.13, 
@@ -344,7 +344,7 @@
         "value": 30.0
     }, 
     {
-        "diff-string": "22.92% more than the MLB average", 
+        "diff-string": "22.92% above the MLB avg.", 
         "hc-key": "us-ms", 
         "number": 36, 
         "percent": 2.36, 
@@ -352,7 +352,7 @@
         "value": 22.92
     }, 
     {
-        "diff-string": "26.89% more than the MLB average", 
+        "diff-string": "26.89% above the MLB avg.", 
         "hc-key": "us-sc", 
         "number": 41, 
         "percent": 2.69, 
@@ -360,7 +360,7 @@
         "value": 26.89
     }, 
     {
-        "diff-string": "7.89% less than the MLB average", 
+        "diff-string": "7.89% below the MLB avg.", 
         "hc-key": "us-ky", 
         "number": 16, 
         "percent": 1.05, 
@@ -368,7 +368,7 @@
         "value": -7.89
     }, 
     {
-        "diff-string": "18.6% less than the MLB average", 
+        "diff-string": "18.6% below the MLB avg.", 
         "hc-key": "us-or", 
         "number": 16, 
         "percent": 1.05, 

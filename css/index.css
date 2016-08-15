@@ -2,7 +2,7 @@
 	/*position: absolute;*/
 }
 .map {
-	/*height:450px;*/
+	height:500px;
 }
 
 .map-description-text {
@@ -17,4 +17,34 @@
 #teamSearchBox {
 	width: 100%;
 	text-align: center;
+}
+
+@media(max-width:1200px) {
+	.map {
+		height:450px;
+	}
+}
+
+@media(max-width:991px) {
+	.map {
+		height:400px;
+	}
+}
+
+@media(max-width:768px) {
+	.map {
+		height:350px;
+	}
+}
+
+@media(max-width:640px) {
+	.map {
+		height:325px;
+	}
+}
+
+@media(max-width:375px) {
+	.map {
+		height:275px;
+	}
 }

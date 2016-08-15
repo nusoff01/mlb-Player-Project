@@ -47,7 +47,10 @@ $(function () {
     }
                 
     function positionerFunction(tooltipX, tooltipY, c){
-        return { x: (map.plotSizeX - tooltipX)/2, y: map.plotSizeY - tooltipY};
+        console.log({ x: (map.plotSizeX - tooltipX)/2, y: map.plotSizeY - tooltipY});
+        console.log("map.plotSizeY: " + map.plotSizeY);
+        console.log("tooltipY: " + tooltipY);
+        return { x: (map.plotSizeX - tooltipX)/2 + (map.plotSizeX / 5), y: map.plotSizeY - tooltipY + 20};
     }
 
     var options = {
@@ -56,7 +59,8 @@ $(function () {
         },
         chart: {
             renderTo: 'map-teamPlayers',
-            zoomType: ''
+            zoomType: '',
+            marginBottom: 75
         },
 
         mapNavigation: {
