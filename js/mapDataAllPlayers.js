@@ -37,7 +37,7 @@ $(function () {
            stops: [
                 [0, '#660000'],
                 [0.5, '#fafaec'],
-                [.999, '#00664d']
+                [1, '#00664d']
             ],
             minColor: "red",
             maxColor: "blue",
