@@ -36,7 +36,7 @@ $(function () {
             
            stops: [
                 [0, '#660000'],
-                [0.5, '#ffffff'],
+                [0.5, '#fafaec'],
                 [.999, '#00664d']
             ],
             minColor: "red",

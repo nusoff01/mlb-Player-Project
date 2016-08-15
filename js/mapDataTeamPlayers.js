@@ -47,9 +47,6 @@ $(function () {
     }
                 
     function positionerFunction(tooltipX, tooltipY, c){
-        console.log({ x: (map.plotSizeX - tooltipX)/2, y: map.plotSizeY - tooltipY});
-        console.log("map.plotSizeY: " + map.plotSizeY);
-        console.log("tooltipY: " + tooltipY);
         return { x: (map.plotSizeX - tooltipX)/2 + (map.plotSizeX / 5), y: map.plotSizeY - tooltipY + 20};
     }
 
@@ -83,6 +80,7 @@ $(function () {
                 [.5, '#ffffff'],
                 [.6, '#88aa9e'],
                 [1, '#00664d']
+
             ],
             min: -150,
             max: 150,
@@ -99,17 +97,23 @@ $(function () {
     }
 
     var map;
+    var statesData = [];
 
     function setTeam(team) {
+        console.log("got to setTeam")
+        console.log(statesData)
         if (TEAM_NAME_MAP.indexOf(team)){
-            $.getJSON("teamStates/" + team + ".json", function(json) {
-                options.series = createTeamSeries(json, TEAM_NAME_MAP[team])
-                map = new Highcharts.Map(options);
-            });
+            var teamStateData = statesData[team]
+            console.log(teamStateData)
+            options.series = createTeamSeries(teamStateData, TEAM_NAME_MAP[team])
+            map = new Highcharts.Map(options);
         }
     }
 
-    setTeam("BOS");
+    $.getJSON("teamStates/combined.json", function(json) {
+        statesData = json
+        setTeam("BOS");
+    });
 
     function createColorScheme() {
         var schemes = []
