@@ -32,17 +32,19 @@ h1, h2, h3, h4, h5, p {
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
 }
 
 .headline h2 {
     font-size: 100px;
-    background: #fff;
 }
 
 .headline h3 {
     font-size: 35px;
+}
+
+.headline h1, h2, h3 {
     background: #fff;
+    padding: 5px;
 }
 
 #description b {

@@ -35,7 +35,7 @@ $(function () {
                                    '<b>{point.number}</b> Draft Selections (<b>{point.percent}</b>% of total)<br/>' +
                                    '</span>'
             },
-            nullColor: "#888888"
+            nullColor: "#999999"
         }, {
             name: 'Separators',
             type: 'mapline',
@@ -75,18 +75,13 @@ $(function () {
             type: "linear",
             
             stops: [
-                // [0, '#660000'],
-                // [.4, '#aa8888'],
-                // [.5, '#ffffff'],
-                // [.6, '#88aa9e'],
-                // [1, '#00664d']
-                [0, '#660000'],
-                [0.5, '#fafaec'],
-                [1, '#00664d']
+                [0, '#882010'],
+                [0.5, '#fafaef'],
+                [1, '#00886d']
 
             ],
-            min: -150,
-            max: 150,
+            min: -200,
+            max: 200,
             dataClassColor: "tween"
 
             // dataClasses: createColorScheme()
@@ -113,43 +108,11 @@ $(function () {
         }
     }
 
-    $.getJSON("teamStates/combined.json", function(json) {
+    $.getJSON("bin/combined.json", function(json) {
         statesData = json
         setTeam("BOS");
     });
 
-    function createColorScheme() {
-        var schemes = []
-        var previous = 0
-        for (var i = 0; i < 25; i++){
-            var shade = (255 - (((i+1) * 10 / 250) * 255));
-            var shade = Math.floor(shade).toString(16);
-            if(shade.length == 1){
-                shade = "0" + shade;
-            }
-            schemes.push({
-                "from": i*10,
-                "to": i*10 + 10,
-                "color": "#FF" + shade.toUpperCase() + shade.toUpperCase()  
-            });
-            schemes.push({
-                "from": 0 - (i*10 + 10),
-                "to": 0 - (i*10),
-                "color": "#" + shade.toUpperCase() + "FFFF"
-            });
-        }
-
-        schemes.push({
-            "from": 250,
-            "color": "#FF0000"
-        });
-
-        schemes.push({
-            "to": -250,
-            "color": "#00FFFF"
-        });
-        return schemes;
-    }
 
     var teamNames = TEAM_NAME_MAP.map(function(pair){
         for (var key in pair){
