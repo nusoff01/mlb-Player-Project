@@ -1,3 +1,43 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-image {
+	background: url('../img/baseball.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+
+
+.headline {
+	padding: 100px 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.headline h2,
+.headline h3 {
+	background: none;
+}
+
+.headline h2 {
+	font-weight: 900;
+}
+
+#description {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+#description a:hover,
+footer a:hover {
+	text-decoration: none;
+	color: #E57373;
+	-webkit-transition: color .2s;
+	transition: color .2s;
+}
+
 #map-teamPlayers {
 	/*position: absolute;*/
 }
